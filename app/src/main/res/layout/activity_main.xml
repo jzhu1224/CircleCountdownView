@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zhujiang.circlecountdownwidget.MainActivity">
+
+    <com.zhujiang.circlecountdownwidget.CircleCountdownView
+        android:id="@+id/circle_countdown_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bigColor="#ff77a4"
+        app:stripeWidth="1dp"
+        app:centerTextSize="12sp"
+        app:backgoundSrc="@drawable/sayu_discharge"/>
+</RelativeLayout>

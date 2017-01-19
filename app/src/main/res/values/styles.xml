@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="CircleCountdownView">
+        <attr name="cicleRadius" format="dimension"/>
+        <!--色带宽度-->
+        <attr name="stripeWidth" format="dimension"/>
+        <attr name="smallColor" format="color"/>
+        <!--外圈颜色-->
+        <attr name="bigColor" format="color"/>
+        <!--中间字体颜色-->
+        <attr name="centerTextSize" format="dimension"/>
+        <!--按钮背景图-->
+        <attr name="backgoundSrc" format="integer"/>
+    </declare-styleable>
+</resources>
